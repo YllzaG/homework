@@ -1,0 +1,161 @@
+styleee.css
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+header
+{
+    background-image:url(../images/bg2.jfif);
+    height: 100vh;
+    background-size: cover;
+    background-position:center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+
+}
+ul li{
+    display: inline-block;
+}
+ul li a
+{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 5px 20px;
+    border: 1px solid white;
+    transition: 0.5;
+    font-size: 20px;
+    margin-right: 15px;
+}
+ul li a :hover
+{
+    background-color: white;
+    color: #000;
+}
+.title{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%)
+    
+}
+.title h1{
+    color: white;
+    font-size: 35px;
+    width: 900px;
+    margin-top: 90px;
+    margin-left: 200px;
+}
+.title h2{
+    color: tomato;
+    font-size: 30px;
+    float: center;
+    margin-left: 350px;
+}
+.cover{
+    
+    margin-top: -650px;
+   margin-left: 230px;
+
+
+}
+.cover li
+{
+    display: inline-block;
+}
+.footer{
+    
+    height: 300px;
+    float: right;
+    margin-top: 170px;
+    margin-right: 60px;
+    color: rgb(119, 216, 140);
+}
+.footer p
+{
+    width: 400px;
+    text-align: center;
+}
+.footer h2
+{
+    width: 400px;
+    text-align: center;
+    
+}
+
+/**GALLERY*/
+#background{
+    background-color: rgb(116, 146, 112);
+    width: 100%;
+    height: 800px;
+   
+}
+ul li
+{
+    padding: 15px;
+    
+}
+#textbox{
+    float: center;
+    font-size: 25px;
+    margin-left: 50px;
+}
+/**ABOUT*/
+#color{
+    background-color: rgb(226, 226, 126);
+    width: 100%;
+    height: 700px;
+}
+.aboutme{
+    width: 700px;
+    margin-left: 50px;
+    
+}
+.aboutme p
+{
+    font-size: 25px;
+    color: rgb(5, 56, 12);
+   
+}
+#me{
+    float: right;
+    margin-top: -500px;
+    margin-right: 100px;
+}
+#contact{
+    background-color: rgb(159, 243, 191);
+    height: 750px;
+    width: 100%;
+ 
+
+}
+.contactme 
+{
+    width: 800px;
+    margin-left: 50px;
+    
+}
+
+.map{
+    margin-left: 120px;
+}
+.info
+{
+    float: right;
+    margin-right: 100px;
+    margin-top: -550px;
+    font-size: 30px;
+}
+#contact > div.map {
+    width: 598px;
+    display: inline-block;
+    float: left;
+}
+#forma {
+    float: right;
+    width: 600px;
+    height: 200px;
+}
